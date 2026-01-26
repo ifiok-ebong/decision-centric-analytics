@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+# data / outputs
+*.csv
+*.parquet
+*.db
+*.sqlite
+*.pkl
+/output/
+/outputs/
+/data/
