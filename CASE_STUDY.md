@@ -229,6 +229,6 @@ This project is complete when:
 ---
 
 ## Files
-- `README.md` — master case study (this document)
-- `CASE_STUDY.md` — copy of the master case study
+- `README.md` — master case study
+- `CASE_STUDY.md` — copy of the master case study (this document)
 - `02_Decision_Statement.md`, `03_Business_Context.md`, `04_Dataset_Overview.md`, `analysis_pre_analysis_plan.md` — source sections (kept for traceability)
