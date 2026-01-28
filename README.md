@@ -108,20 +108,21 @@ Analytics is expected to reduce uncertainty and support a clear, defensible trad
 ## 3) Why “dashboard-first” analytics fails (before → after)
 
 ### Before (failure mode)
-When teams start with dashboards, they typically:
-- accumulate metrics because they are available, not because they change a decision
-- create competing interpretations (“our metric says onboarding”; “ours says retention”)
-- increase debate surface area instead of forcing a choice
+A dashboard-first team will ship a retention dashboard with:
+- dozens of engagement metrics (logins, feature clicks, DAU/WAU/MAU)
+- global averages that erase tenure differences
+- trend lines without thresholds
+- filters that create multiple “truths”
 
-Result: **more measurement, less decision**.
+Result: both teams can cherry-pick a metric to justify their preferred narrative. **More measurement, less decision.**
 
 ### After (decision-first)
-When the decision is locked first, analytics becomes:
-- a constrained comparison between alternatives
-- a minimal set of metrics tied directly to the decision path
-- a small artifact that makes the trade-off explicit
+Decision-first analytics produces a single, constrained artifact:
+- one tenure comparison (early vs mid)
+- four decision-critical metrics only
+- explicit assumptions and “what would change the decision”
 
-Result: **less measurement, more action**.
+Result: **less measurement, more action.**
 
 ---
 
@@ -186,7 +187,7 @@ Derived analysis panel (not committed): an account × month panel built from raw
 
 ---
 
-## 6) Decision-forcing artifact (template)
+## 6) Decision-forcing artifact
 
 This artifact is designed to force a choice using only decision-critical evidence.
 
@@ -199,14 +200,13 @@ This artifact is designed to force a choice using only decision-critical evidenc
 | Usage decay before churn (median, m-1 vs m-2) | -37.2% | -11.1% | Early |
 | Support burden (any tickets in last 3 months pre-churn) | 11.0% | 37.4% | Mid |
 
-(Full artifact: `outputs/rivalytics_decision_table.md`)
+Full artifact: `outputs/rivalytics_decision_table.md`
 
 ### Decision rule
-Choose the option that wins on the **highest-leverage** combination of:
-- **Revenue at risk** (primary), and
-- **Intervention leverage** implied by churn concentration + usage decay + support burden.
+Per `analysis_pre_analysis_plan.md`, **revenue at risk is primary**. When churn concentration is split, prioritize the cohort where a constrained intervention protects more recurring revenue.
 
-If results are ambiguous, the output must say so explicitly.
+### Robustness check (Step 6)
+Revenue-at-risk timing variations did **not** flip the recommendation. Summary: `outputs/stress_test_summary.md`.
 
 ---
 
@@ -220,7 +220,15 @@ Hidden assumptions are considered a project failure.
 
 ---
 
-## 8) Completion conditions
+## 8) Distilled insights (generalizable)
+- **If the decision isn’t crisp, analytics will expand the debate surface area.**
+- **Cohorts beat averages** when the decision is about lifecycle (tenure).
+- **Revenue-at-risk is a forcing function**: it turns “where churn happens” into “where the business bleeds.”
+- **When evidence conflicts, don’t smooth it—rank it.** Here: revenue-at-risk is primary; usage decay is secondary.
+- **Use interpretable proxies and label them.** Directional truth > false precision.
+- **A good artifact makes disagreement expensive** by constraining what can be argued.
+
+## 9) Completion conditions
 This project is complete when:
 - the decision is clearly supported
 - additional metrics would not materially change the outcome

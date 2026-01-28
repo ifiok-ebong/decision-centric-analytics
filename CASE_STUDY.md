@@ -108,20 +108,21 @@ Analytics is expected to reduce uncertainty and support a clear, defensible trad
 ## 3) Why “dashboard-first” analytics fails (before → after)
 
 ### Before (failure mode)
-When teams start with dashboards, they typically:
-- accumulate metrics because they are available, not because they change a decision
-- create competing interpretations (“our metric says onboarding”; “ours says retention”)
-- increase debate surface area instead of forcing a choice
+A dashboard-first team will ship a retention dashboard with:
+- dozens of engagement metrics (logins, feature clicks, DAU/WAU/MAU)
+- global averages that erase tenure differences
+- trend lines without thresholds
+- filters that create multiple “truths”
 
-Result: **more measurement, less decision**.
+Result: both teams can cherry-pick a metric to justify their preferred narrative. **More measurement, less decision.**
 
 ### After (decision-first)
-When the decision is locked first, analytics becomes:
-- a constrained comparison between alternatives
-- a minimal set of metrics tied directly to the decision path
-- a small artifact that makes the trade-off explicit
+Decision-first analytics produces a single, constrained artifact:
+- one tenure comparison (early vs mid)
+- four decision-critical metrics only
+- explicit assumptions and “what would change the decision”
 
-Result: **less measurement, more action**.
+Result: **less measurement, more action.**
 
 ---
 
@@ -220,7 +221,15 @@ Hidden assumptions are considered a project failure.
 
 ---
 
-## 8) Completion conditions
+## 8) Distilled insights (generalizable)
+- **If the decision isn’t crisp, analytics will expand the debate surface area.**
+- **Cohorts beat averages** when the decision is about lifecycle (tenure).
+- **Revenue-at-risk is a forcing function**: it turns “where churn happens” into “where the business bleeds.”
+- **When evidence conflicts, don’t smooth it—rank it.** Here: revenue-at-risk is primary; usage decay is secondary.
+- **Use interpretable proxies and label them.** Directional truth > false precision.
+- **A good artifact makes disagreement expensive** by constraining what can be argued.
+
+## 9) Completion conditions
 This project is complete when:
 - the decision is clearly supported
 - additional metrics would not materially change the outcome

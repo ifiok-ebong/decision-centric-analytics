@@ -57,3 +57,8 @@ Per `analysis_pre_analysis_plan.md`, **revenue at risk is primary**. When churn 
 ## What would change the decision
 - If a revised revenue-at-risk definition (e.g., next-3-months MRR) flips the cohort ranking.
 - If churn concentration shifts materially (e.g., early becomes the clear majority of churn events).
+
+---
+
+## Robustness check (Step 6)
+Revenue-at-risk timing variations did **not** flip the recommendation (see `outputs/stress_test_summary.md`).
