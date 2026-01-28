@@ -32,11 +32,6 @@ Any work that does not directly support a decision is excluded.
 
 ---
 
-## Process note
-This project intentionally prioritizes framing discipline and minimal metrics; iteration was rapid by design.
-
-# The Case Study (Master Document)
-
 ## 1) Decision statement
 
 ### Decision owner
