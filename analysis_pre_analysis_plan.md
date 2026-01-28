@@ -1,5 +1,5 @@
 # Pre-Analysis Plan  
-Project 1: Decision-Centric Analytics
+Decision-Centric Analytics
 
 ---
 

@@ -1,4 +1,4 @@
-# Decision-Centric Analytics (Project 1)
+# Decision-Centric Analysis
 
 **Positioning:** *Direction sets the ceiling. Execution only helps you reach it.*
 
@@ -231,4 +231,4 @@ This project is complete when:
 ## Files
 - `README.md` — master case study (this document)
 - `CASE_STUDY.md` — copy of the master case study
-- `02_Decision_Statement.md`, `03_Business_Context.md`, `04_Dataset_Overview.md`, `analysis_pre_analysis_plan.md` — source sections (kept for traceability)
+- `Decision_Statement.md`, `Business_Context.md`, `Dataset_Overview.md`, `analysis_pre_analysis_plan.md` — source sections (kept for traceability)
