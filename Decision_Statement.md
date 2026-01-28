@@ -62,3 +62,12 @@ Per `analysis_pre_analysis_plan.md`, **revenue at risk is primary**. When churn 
 
 ## Robustness check (Step 6)
 Revenue-at-risk timing variations did **not** flip the recommendation (see `outputs/stress_test_summary.md`).
+
+---
+
+## Forced recommendation (executive posture)
+**Recommendation:** Fund **mid-tenure retention (4–12 months)** this quarter.
+
+**Downside we accept (explicit):** we are accepting that **46.6%** of churn events occur in early tenure and we are not optimizing for them this quarter.
+
+**Do not revisit unless:** (1) the revenue-at-risk ranking flips under a materially different definition, or (2) churn concentration shifts materially toward early tenure (e.g., early exceeds mid by ~10+ points).

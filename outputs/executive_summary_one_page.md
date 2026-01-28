@@ -14,6 +14,14 @@ Source: `outputs/rivalytics_decision_table.md`
 ## Decision rule
 Per `analysis_pre_analysis_plan.md`, **revenue at risk is primary**. When churn concentration is split, prioritize the cohort where a constrained intervention protects more recurring revenue.
 
+
+## Forced recommendation
+Fund **mid-tenure retention (4–12 months)** this quarter.
+
+**Downside we accept:** early tenure is **46.6%** of churn events; we are not optimizing for that cohort this quarter.
+
+**Do not revisit unless:** revenue-at-risk ranking flips, or early-tenure churn concentration becomes materially dominant.
+
 ## Robustness (Step 6)
 Revenue-at-risk timing variations did **not** flip the recommendation (Mid remains higher):
 - prior-month MRR → Mid wins

@@ -177,6 +177,24 @@ Primary comparison: **early vs mid tenure**.
 
 ## 5) Dataset (current)
 
+## What gets messier in production data (and what I still would not analyze)
+This case study uses a representative dataset to demonstrate decision architecture. In production SaaS data, measurement becomes messier, but the **decision structure and metric discipline remain the same**.
+
+What gets messier:
+- **Entity definitions:** account vs workspace vs subscription; cohorting must anchor on one decision-relevant entity.
+- **MRR definition drift:** discounts, annual prepay normalization, upgrades/downgrades; revenue-at-risk must be defined consistently.
+- **Churn semantics:** logo churn vs revenue churn vs contraction; the decision must pick the churn definition that matches the budget goal.
+- **Support signal leakage:** tickets split across channels (email, chat, CSM notes); sparse tickets require interpretable proxies (incidence) rather than fragile ratios.
+- **Instrumentation gaps:** usage events change with product releases; decay signals must be checked for measurement artifacts.
+
+What I still would not do:
+- expand to dozens of engagement metrics
+- build a dashboard with exploratory filters
+- add modeling/churn scoring to avoid making the trade-off
+
+Even with messy production data, the metric set stays minimal; only the measurement plumbing changes.
+
+
 **Dataset used:** Rivalytics — SaaS Subscription and Churn Analytics dataset.
 
 Used only to support the decision by enabling the four decision-critical metrics:
