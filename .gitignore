@@ -5,11 +5,18 @@ __pycache__/
 .venv/
 node_modules/
 # data / outputs
+# Keep large/derived data out of git by default
 *.csv
 *.parquet
 *.db
 *.sqlite
 *.pkl
-/output/
-/outputs/
+
+# Do NOT commit raw datasets
 /data/
+/output/
+
+# Allow small written artifacts under outputs (decision tables, summaries)
+/outputs/*
+!/outputs/*.md
+!/outputs/*.txt

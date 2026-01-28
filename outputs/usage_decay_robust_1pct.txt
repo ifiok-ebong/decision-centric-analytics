@@ -1,0 +1,20 @@
+Usage decay prior to churn (churn timing proxy as before)
+Two views:
+1) raw pct change of total_secs (month -1 vs mean(month -3,-2))
+2) delta log1p(total_secs) (month -1 minus log1p(baseline))
+
+== early ==
+n_raw=0 n_log=0
+raw: n=0
+logΔ: n=0
+
+== mid ==
+n_raw=99 n_log=99
+raw median=-13.43% raw trimmed_mean10=-1.03% raw winsor_p05_mean=4.56%
+logΔ median=-0.1443 logΔ trimmed_mean10=-0.2061 logΔ winsor_p05_mean=-0.9240
+
+== late ==
+n_raw=265 n_log=265
+raw median=-11.02% raw trimmed_mean10=-0.62% raw winsor_p05_mean=30.91%
+logΔ median=-0.1167 logΔ trimmed_mean10=-0.2189 logΔ winsor_p05_mean=-0.8250
+

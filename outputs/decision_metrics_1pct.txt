@@ -1,0 +1,22 @@
+Cohort definition: Early=0-3 months, Mid=4-12 months, Late=12+ months (from pre-analysis plan)
+Churn timing proxy: last month with tx_rows>0 (else last observed month)
+
+Customer counts by cohort (using same timing proxy):
+- early: 716
+- mid: 2301
+- late: 6862
+
+Churned customer counts by cohort (at churn timing proxy):
+- early: 145 (22.8% of churn)
+- mid: 124 (19.5% of churn)
+- late: 368 (57.8% of churn)
+
+Revenue-at-risk proxy (sum actual_amount_paid over 3 months up to churn month):
+- early: 84455
+- mid: 66147
+- late: 159033
+
+Usage decay prior to churn (total_secs): pct change of month -1 vs mean(month -3, -2)
+- early: n=0
+- mid: n=99 mean=19.67% median=-13.43%
+- late: n=265 mean=168.57% median=-11.02%

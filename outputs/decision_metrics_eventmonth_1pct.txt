@@ -1,0 +1,22 @@
+Cohorts: Early=0–3m, Mid=4–12m, Late=12+m (plan).
+Event month proxy: churned → month(max membership_expire_date); non-churned → month(max transaction_date).
+
+Customer counts by cohort (at event month proxy):
+- early: 658
+- mid: 2307
+- late: 6914
+
+Churned counts by cohort (at event month proxy):
+- early: 87 (13.7% of churn)
+- mid: 130 (20.4% of churn)
+- late: 420 (65.9% of churn)
+
+Revenue-at-risk proxy (3mo forward; churned only):
+- early: 21768
+- mid: 36117
+- late: 108608
+
+Usage decay prior to event (month -1 vs avg(-3,-2)):
+- early: n=0 raw_median=n/a raw_trim10=n/a logΔ_median=n/a
+- mid: n=108 raw_median=0.35% raw_trim10=6.03% logΔ_median=0.0035
+- late: n=308 raw_median=-13.16% raw_trim10=-4.01% logΔ_median=-0.1412

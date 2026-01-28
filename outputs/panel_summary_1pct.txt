@@ -1,0 +1,18 @@
+Cohort MS counts (assigned by latest tenure month):
+- late: 6967
+- mid: 2302
+- early: 610
+
+Churned MS counts by cohort:
+- late: 420
+- early: 87
+- mid: 130
+
+Total churned: 637
+
+Revenue-at-risk proxy (sum actual_amount_paid over last 3 months for churned):
+- late: 108608
+- early: 17297
+- mid: 36117
+
+Sentinel expire_date rows (19700101) observed in transactions: 2

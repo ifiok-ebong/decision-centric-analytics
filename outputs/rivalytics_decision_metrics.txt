@@ -1,0 +1,35 @@
+Rivalytics decision-critical metrics (from account-month panel)
+Cohorts: early=0–3m, mid=4–12m, late=12+m (context)
+Accounts total: 500; churned accounts: 352
+
+1) Churn concentration
+- Share of churn events (early): 46.6% (164/352)
+- Share of churn events (mid): 44.0% (155/352)
+- Share of churn events (late): 9.4% (33/352)
+- Churn rate proxy (early): 12.6% (churn-months 164 / at-risk acct-months 1,303)
+- Churn rate proxy (mid): 8.9% (churn-months 155 / at-risk acct-months 1,734)
+- Churn rate proxy (late): 5.7% (churn-months 33 / at-risk acct-months 576)
+
+2) Revenue at risk (MRR in month prior to churn)
+- Total MRR at risk (early): 798,415
+- Total MRR at risk (mid): 1,407,419
+- Total MRR at risk (late): 420,911
+- Median MRR at risk per churned acct (early): 1,168
+- Median MRR at risk per churned acct (mid): 5,432
+- Median MRR at risk per churned acct (late): 11,426
+
+3) Usage decay prior to churn (m-1 vs m-2, usage_duration_secs)
+- Median decay (early): -37.2% (n=29)
+- Median decay (mid): -11.1% (n=133)
+- Median decay (late): -12.5% (n=29)
+
+4) Support burden relative to revenue (last 3 months pre-churn)
+- Mean tickets per $MRR (early): 0.0002 (n=68)
+- Median tickets per $MRR (early): 0.0000 (n=68)
+- % churned accts with any tickets in window (early): 11.0%
+- Mean tickets per $MRR (mid): 0.0001 (n=138)
+- Median tickets per $MRR (mid): 0.0000 (n=138)
+- % churned accts with any tickets in window (mid): 37.4%
+- Mean tickets per $MRR (late): 0.0000 (n=32)
+- Median tickets per $MRR (late): 0.0000 (n=32)
+- % churned accts with any tickets in window (late): 24.2%

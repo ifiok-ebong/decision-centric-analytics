@@ -1,0 +1,6 @@
+Adaptive usage decay (event-month proxy = max membership_expire_date)
+Early: month -1 vs month -2 (requires 2 prior months)
+Mid: month -1 vs avg(-3,-2) when available else fallback to -1 vs -2
+
+Early n=17 median=2.03%
+Mid   n=108 median=0.35%
