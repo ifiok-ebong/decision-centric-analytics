@@ -13,6 +13,14 @@ The primary objective is to show judgment:
 ## Core question
 **How does analytics fail when dashboards are built without an explicit decision, and how does decision clarity change what data, metrics, and visuals are required?**
 
+## How to read this repo (60 seconds)
+1) Read `outputs/executive_summary_one_page.md` (one screen).
+2) If you want the logic, read `outputs/rivalytics_decision_table.md` + `Decision_Statement.md`.
+3) If you want robustness, read `outputs/stress_test_summary.md`.
+4) If you want the <2 minute version, read `outputs/two_minute_script.md`.
+
+Note: `README.md` is the main artifact; `CASE_STUDY.md` mirrors it for portability.
+
 ## What this is / is not
 **This is:**
 - a decision-first analytics case study

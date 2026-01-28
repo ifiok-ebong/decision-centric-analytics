@@ -1,5 +1,7 @@
 # Decision-Centric Analysis
 
+*Note: This document mirrors `README.md` for portability (same content, different entry point).*
+
 **Positioning:** *Direction sets the ceiling. Execution only helps you reach it.*
 
 ## Purpose
