@@ -3,7 +3,7 @@
 ## Dataset used (current)
 **Rivalytics — SaaS Subscription and Churn Analytics dataset**
 
-Local path (not committed): `/home/ubuntu/clawd/saas-subscription-churn-analytics/`
+Local path: available locally (not committed to git).
 
 This dataset is used solely to support the project decision by enabling the **four decision-critical metrics** defined in `analysis_pre_analysis_plan.md`:
 1) churn concentration, 2) revenue at risk (MRR), 3) usage decay prior to churn, 4) support burden relative to revenue.

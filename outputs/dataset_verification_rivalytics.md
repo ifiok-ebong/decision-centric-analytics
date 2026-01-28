@@ -1,6 +1,6 @@
 # Dataset Verification — rivalytics/saas-subscription-and-churn-analytics-dataset
 
-Location (workspace): `/home/ubuntu/clawd/saas-subscription-churn-analytics/`
+Location: available locally (not committed to git).
 
 ## Files found
 - `ravenstack_accounts.csv`
