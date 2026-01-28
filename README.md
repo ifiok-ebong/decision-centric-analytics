@@ -29,6 +29,29 @@ The primary objective is to show judgment:
 
 Note: `README.md` is the main artifact; `CASE_STUDY.md` mirrors it for portability.
 
+
+## Key outputs (inline)
+
+### Decision (one sentence)
+Prioritize **mid-tenure retention (4–12 months)** over onboarding improvements for the next quarter because it protects **more revenue at risk**, while churn concentration is roughly split between early and mid tenure.
+
+### Minimal decision table (decision-critical only)
+
+| Criterion (decision-critical) | Early tenure (0–3m) | Mid tenure (4–12m) | Which side wins? |
+|---|---:|---:|---|
+| Share of churn events | 46.6% | 44.0% | Early |
+| Revenue at risk (Total MRR, prev month) | 798,415 | 1,407,419 | Mid |
+| Usage decay before churn (median, m-1 vs m-2) | -37.2% | -11.1% | Early |
+| Support burden (any tickets in last 3 months pre-churn) | 11.0% | 37.4% | Mid |
+
+### Robustness (Step 6)
+Revenue-at-risk timing variations did **not** flip the recommendation (Mid remains higher). Full summary: `outputs/stress_test_summary.md`.
+
+Full artifacts:
+- `outputs/executive_summary_one_page.md`
+- `outputs/rivalytics_decision_table.md`
+- `Decision_Statement.md`
+- `outputs/two_minute_script.md`
 ## What this is / is not
 **This is:**
 - a decision-first analytics case study
