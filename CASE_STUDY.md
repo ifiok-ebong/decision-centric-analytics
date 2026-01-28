@@ -200,7 +200,9 @@ This artifact is designed to force a choice using only decision-critical evidenc
 | Usage decay before churn (median, m-1 vs m-2) | -37.2% | -11.1% | Early |
 | Support burden (any tickets in last 3 months pre-churn) | 11.0% | 37.4% | Mid |
 
-(Full artifact: `outputs/rivalytics_decision_table.md`)
+(Full artifact: `outputs/rivalytics_decision_table.md`
+
+One-page executive summary: `outputs/executive_summary_one_page.md`)
 
 ### Decision rule
 Choose the option that wins on the **highest-leverage** combination of:

@@ -202,6 +202,8 @@ This artifact is designed to force a choice using only decision-critical evidenc
 
 Full artifact: `outputs/rivalytics_decision_table.md`
 
+One-page executive summary: `outputs/executive_summary_one_page.md`
+
 ### Decision rule
 Per `analysis_pre_analysis_plan.md`, **revenue at risk is primary**. When churn concentration is split, prioritize the cohort where a constrained intervention protects more recurring revenue.
 
