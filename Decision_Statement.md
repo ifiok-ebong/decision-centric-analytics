@@ -1,16 +1,12 @@
 # Decision Statement
 
-## Decision Owner
-Executive Leadership Team  
-(CEO, Head of Growth, Head of Customer Success)
+## Decision owner
+Executive Leadership Team (CEO, Head of Growth, Head of Customer Success)
 
 ---
 
-## Decision to Be Made
-Allocate limited improvement budget for the next quarter toward **one** of the following:
-
-1. **Onboarding and early-stage activation improvements**, or  
-2. **Retention incentives and enhanced support for mid-tenure customers**
+## Decision (one sentence)
+Prioritize **mid-tenure retention (4–12 months)** over onboarding improvements for the next quarter because it protects **more revenue at risk**, while churn concentration is roughly split between early and mid tenure.
 
 ---
 
@@ -22,40 +18,42 @@ Allocate limited improvement budget for the next quarter toward **one** of the f
 
 ---
 
-## Alternatives Considered
+## Alternatives considered
 
-### Option A: Onboarding Improvements
+### Option A: Onboarding improvements (0–3 months)
 - Improve early activation
 - Reduce churn within the first 90 days
 - Decrease time-to-value for new customers
 
-### Option B: Mid-Tenure Retention
+### Option B: Mid-tenure retention (4–12 months)
 - Offer targeted retention incentives
 - Improve customer support experience
 - Reduce churn among established customers
 
 ---
 
-## What Would Change the Decision
-The decision would change if evidence shows:
+## Decision-critical evidence (only)
+Source: `outputs/rivalytics_decision_table.md`
 
-- Churn is disproportionately concentrated in one tenure segment
-- Revenue-at-risk is materially higher in one segment
-- Usage decay precedes churn more strongly in one segment
-- Intervention leverage differs meaningfully between segments
-
----
-
-## Decision Success Criteria
-The decision is considered successful if it:
-
-- Targets the customer segment with the highest marginal impact on churn reduction
-- Protects the greatest amount of at-risk recurring revenue
-- Can be justified without requiring additional data collection
+- **Churn concentration (share of churn events):** Early **46.6%** vs Mid **44.0%** (near-tie)
+- **Revenue at risk (Total MRR, month prior to churn):** Early **798,415** vs Mid **1,407,419** → **Mid**
+- **Usage decay prior to churn (median):** Early **-37.2%** vs Mid **-11.1%** (early shows sharper decline; activation failure signal)
+- **Support burden (any tickets in last 3 months pre-churn):** Early **11.0%** vs Mid **37.4%** (mid higher incidence)
 
 ---
 
-## Decision Time Horizon
-Next quarter (3 months)
+## Decision rule applied
+Per `analysis_pre_analysis_plan.md`, **revenue at risk is primary**. When churn concentration is split, prioritize the cohort where a constrained intervention protects more recurring revenue.
 
 ---
+
+## Explicit assumptions (must hold)
+- MRR in the month prior to churn is a reasonable directional proxy for “revenue at risk” for cohort comparison.
+- Tenure cohort at churn month is a meaningful proxy for lifecycle stage.
+- Directional differences are sufficient for this quarter’s one-choice decision.
+
+---
+
+## What would change the decision
+- If a revised revenue-at-risk definition (e.g., next-3-months MRR) flips the cohort ranking.
+- If churn concentration shifts materially (e.g., early becomes the clear majority of churn events).

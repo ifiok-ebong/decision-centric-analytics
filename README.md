@@ -172,18 +172,17 @@ Primary comparison: **early vs mid tenure**.
 
 ---
 
-## 5) Dataset plan (current status)
+## 5) Dataset (current)
 
-**Status:** dataset not included yet.
+**Dataset used:** Rivalytics — SaaS Subscription and Churn Analytics dataset.
 
-Intended dataset (once added) is a **representative subscription business dataset** (synthetic or public), used only to:
-- segment by tenure
-- estimate revenue-at-risk
-- observe usage behavior preceding churn
+Used only to support the decision by enabling the four decision-critical metrics:
+- churn concentration
+- revenue at risk (MRR)
+- usage decay prior to churn
+- support burden relative to revenue
 
-Non-goals:
-- predicting individual churn probability
-- maximizing statistical precision
+Derived analysis panel (not committed): an account × month panel built from raw tables to support cohort comparisons.
 
 ---
 
@@ -191,14 +190,16 @@ Non-goals:
 
 This artifact is designed to force a choice using only decision-critical evidence.
 
-### Minimal decision table (to be filled once data exists)
+### Minimal decision table (filled)
 
 | Criterion (decision-critical) | Early tenure (0–3m) | Mid tenure (4–12m) | Which side wins? |
 |---|---:|---:|---|
-| Share of churn events | TBD | TBD | TBD |
-| Revenue at risk (MRR) | TBD | TBD | TBD |
-| Usage decay before churn (direction/strength) | TBD | TBD | TBD |
-| Support cost per $ of revenue | TBD | TBD | TBD |
+| Share of churn events | 46.6% | 44.0% | Early |
+| Revenue at risk (Total MRR, prev month) | 798,415 | 1,407,419 | Mid |
+| Usage decay before churn (median, m-1 vs m-2) | -37.2% | -11.1% | Early |
+| Support burden (any tickets in last 3 months pre-churn) | 11.0% | 37.4% | Mid |
+
+(Full artifact: `outputs/rivalytics_decision_table.md`)
 
 ### Decision rule
 Choose the option that wins on the **highest-leverage** combination of:

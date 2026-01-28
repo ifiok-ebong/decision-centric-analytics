@@ -1,4 +1,16 @@
-# Decision Statement (Draft) — KKBox Retention Budget Allocation
+# Decision Statement (DEPRECATED) — KKBox Retention Budget Allocation
+
+This draft is **deprecated**.
+
+Reason: the KKBox dataset was abandoned for this project because it could not support the **full set of decision-critical metrics** in the locked pre-analysis plan (specifically: support interactions relative to revenue).
+
+Use instead:
+- `outputs/decision_statement.md` (Rivalytics)
+- `outputs/rivalytics_decision_table.md`
+
+---
+
+## Original draft (kept only for traceability)
 
 ## Decision (one sentence)
 Prioritize **mid-tenure retention (4–12 months)** over early onboarding changes for the next quarter because it protects **more revenue at risk** per churned customer cohort in the observed window.
