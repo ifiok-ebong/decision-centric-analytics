@@ -10,7 +10,7 @@ Purpose: capture the real-world friction we hit while building this KKBox churn 
 
 ---
 
-## 27 Jan 2026 — Data acquisition & extraction
+## 27 Jan 2026 - Data acquisition & extraction
 
 ### 1) Huge competition download size (8.34 GB zip)
 - **Symptom:** Long download and large on-disk footprint.
@@ -22,13 +22,13 @@ Purpose: capture the real-world friction we hit while building this KKBox churn 
 - **Symptom:** `7z` extraction failed while extracting `user_logs.csv.7z`.
 - **Cause:** `user_logs.csv.7z` expands to a very large CSV; keeping the full zip + multiple `.7z` archives + extracted CSVs simultaneously exceeded disk.
 - **Fix / Mitigation:**
-  - Deleted large archives once not needed.
-  - Avoided full extraction of `user_logs.csv`.
-  - Used **streaming extract** (`7z x -so`) + filter to create a smaller sampled file.
+ - Deleted large archives once not needed.
+ - Avoided full extraction of `user_logs.csv`.
+ - Used **streaming extract** (`7z x -so`) + filter to create a smaller sampled file.
 - **Prevention:**
-  - Never fully extract `user_logs` on small disks.
-  - Keep a rule: **extract only what you need**, and delete archives promptly.
-  - Check free space with `df -h` before large operations.
+ - Never fully extract `user_logs` on small disks.
+ - Keep a rule: **extract only what you need**, and delete archives promptly.
+ - Check free space with `df -h` before large operations.
 
 ### 3) Hidden dependency: pandas not installed
 - **Symptom:** Python step failed with `ModuleNotFoundError: No module named 'pandas'`.
@@ -41,16 +41,16 @@ Purpose: capture the real-world friction we hit while building this KKBox churn 
 - **Cause:** Shell variables weren’t exported; Python subprocess didn’t see them.
 - **Fix / Mitigation:** Passed paths directly into the heredoc via string interpolation (or explicitly `export RAW=...`).
 - **Prevention:**
-  - Prefer explicit path arguments.
-  - If using env vars, `export` them before launching Python.
+ - Prefer explicit path arguments.
+ - If using env vars, `export` them before launching Python.
 
 ### 5) Long-running stream-filter phase with little/no progress output
 - **Symptom:** After download, the job appeared “stuck”; no new console output while filtering.
 - **Cause:** Streaming parse/filter is CPU + I/O heavy and our script didn’t emit periodic progress.
 - **Fix / Mitigation:** Monitored:
-  - output file growth (`ls -lh`)
-  - writer process via `lsof`
-  - disk via `df -h`
+ - output file growth (`ls -lh`)
+ - writer process via `lsof`
+ - disk via `df -h`
 - **Prevention:** Add lightweight progress logging (e.g., print every N rows) for long-running filters.
 
 ### 6) Intermittent truncated/mangled exec output
