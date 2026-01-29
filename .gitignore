@@ -20,3 +20,6 @@ node_modules/
 /outputs/*
 !/outputs/*.md
 !/outputs/*.txt
+
+# appendix-generated output (do not track)
+outputs/technical_appendix_decision_table.md
