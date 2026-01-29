@@ -10,6 +10,7 @@ What you will find here:
 - One small Python script that builds an account-month panel and reproduces the decision table from the local dataset.
 
 Notes:
+Tested with Python 3.12.
 - The raw dataset is not committed.
 - These scripts are optional implementation details.
 
