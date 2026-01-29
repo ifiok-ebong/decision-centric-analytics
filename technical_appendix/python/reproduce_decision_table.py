@@ -138,7 +138,7 @@ def main():
 
     total_churn = sum(churn_share.values())
 
-    out_path = f"{out_dir}/rivalytics_decision_table.md"
+    out_path = f"{out_dir}/technical_appendix_decision_table.md"
     md = []
     md.append("# Decision Table — Rivalytics dataset (account-month panel)")
     md.append("")

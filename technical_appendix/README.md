@@ -13,3 +13,5 @@ Notes:
 - The raw dataset is not committed.
 - These scripts are optional implementation details.
 
+
+Safety: the Python script writes to `outputs/technical_appendix_decision_table.md` so it cannot overwrite the canonical decision artifact (`outputs/rivalytics_decision_table.md`).
