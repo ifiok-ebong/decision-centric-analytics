@@ -63,7 +63,7 @@ Purpose: capture the real-world friction we hit while building this KKBox churn 
 
 ## Current dataset artifacts (post-mitigation)
 
-Saved in: `/home/ubuntu/clawd/kkbox/raw/`
+Saved locally (path omitted).
 - `train.csv` (~45 MB)
 - `members_v3.csv` (~409 MB)
 - `transactions.csv` (~1.7 GB)

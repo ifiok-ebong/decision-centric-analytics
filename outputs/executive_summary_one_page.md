@@ -1,4 +1,4 @@
-# One-page Executive Summary — Decision-Centric Analysis
+# One-page Executive Summary - Decision-Centric Analysis
 
 ## Decision (one sentence)
 Prioritize **mid-tenure retention (4–12 months)** over onboarding improvements for the next quarter because it protects **more revenue at risk**, while churn concentration is roughly split between early and mid tenure.

@@ -11,7 +11,7 @@
 
 Fast pitch (<2 minutes): `outputs/two_minute_script.md`
 ## Purpose
-This project demonstrates how analytics should be designed to support a **real, constrained business decision**—not to showcase dashboards, tools, or technical sophistication.
+This project demonstrates how analytics should be designed to support a **real, constrained business decision** - not to showcase dashboards, tools, or technical sophistication.
 
 The primary objective is to show judgment:
 - how decisions are defined
@@ -230,7 +230,7 @@ What I still would not do:
 Even with messy production data, the metric set stays minimal; only the measurement plumbing changes.
 
 
-**Dataset used:** Rivalytics — SaaS Subscription and Churn Analytics dataset.
+**Dataset used:** Rivalytics - SaaS Subscription and Churn Analytics dataset.
 
 Used only to support the decision by enabling the four decision-critical metrics:
 - churn concentration
@@ -281,7 +281,7 @@ Hidden assumptions are considered a project failure.
 - **If the decision isn’t crisp, analytics will expand the debate surface area.**
 - **Cohorts beat averages** when the decision is about lifecycle (tenure).
 - **Revenue-at-risk is a forcing function**: it turns “where churn happens” into “where the business bleeds.”
-- **When evidence conflicts, don’t smooth it—rank it.** Here: revenue-at-risk is primary; usage decay is secondary.
+- **When evidence conflicts, don’t smooth it - rank it.** Here: revenue-at-risk is primary; usage decay is secondary.
 - **Use interpretable proxies and label them.** Directional truth > false precision.
 - **A good artifact makes disagreement expensive** by constraining what can be argued.
 
@@ -295,6 +295,6 @@ This project is complete when:
 ---
 
 ## Files
-- `README.md` — master case study (this document)
-- `CASE_STUDY.md` — copy of the master case study
-- `Decision_Statement.md`, `Business_Context.md`, `Dataset_Overview.md`, `analysis_pre_analysis_plan.md` — source sections (kept for traceability)
+- `README.md` - master case study (this document)
+- `CASE_STUDY.md` - copy of the master case study
+- `Decision_Statement.md`, `Business_Context.md`, `Dataset_Overview.md`, `analysis_pre_analysis_plan.md` - source sections (kept for traceability)
