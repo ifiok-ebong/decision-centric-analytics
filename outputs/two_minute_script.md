@@ -4,7 +4,7 @@ We have one quarter and one budget to reduce churn, so we must pick **one** leve
 
 We used only four decision-critical metrics, cohorted by tenure at churn.
 
-1) **Churn concentration:** churn is split — early is 46.6% of churn events vs mid 44.0%, so churn volume alone does not force a choice.
+1) **Churn concentration:** churn is split - early is 46.6% of churn events vs mid 44.0%, so churn volume alone does not force a choice.
 
 2) **Revenue at risk (primary):** mid-tenure carries materially more revenue at risk under multiple definitions. Using MRR in the month prior to churn, early is 798,415 vs mid 1,407,419. Stress testing revenue timing (prior month, 3‑month average, churn month) does not flip the result.
 

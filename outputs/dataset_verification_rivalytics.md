@@ -1,4 +1,4 @@
-# Dataset Verification — rivalytics/saas-subscription-and-churn-analytics-dataset
+# Dataset Verification - rivalytics/saas-subscription-and-churn-analytics-dataset
 
 Location: available locally (not committed to git).
 
@@ -22,7 +22,7 @@ Location: available locally (not committed to git).
 | Support interactions | **PASS** | `submitted_at`, `closed_at`, `priority`, `resolution_time_hours`, `first_response_time_minutes` (support_tickets) | Ticket-level; can count per month and compute burden |
 
 ## Verdict
-**PASS** — This dataset contains all decision-critical inputs required by the pre-analysis plan (including support interactions). It is suitable for the decision-centric analysis.
+**PASS** - This dataset contains all decision-critical inputs required by the pre-analysis plan (including support interactions). It is suitable for the decision-centric analysis.
 
 ## Immediate next step (recommended)
 Define the canonical churn event date for cohorting (choose one):

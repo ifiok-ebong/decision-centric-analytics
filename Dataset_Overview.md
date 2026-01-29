@@ -1,7 +1,7 @@
 # Dataset Overview
 
 ## Dataset used (current)
-**Rivalytics — SaaS Subscription and Churn Analytics dataset**
+**Rivalytics - SaaS Subscription and Churn Analytics dataset**
 
 Local path: available locally (not committed to git).
 
@@ -78,7 +78,7 @@ Primary comparison is **early vs mid**.
 
 ## Known limitations (must be stated)
 - Support-ticket data is **sparse** for many accounts; for interpretability we use incidence-style measures (e.g., “% of churned accounts with any tickets”) instead of relying only on tickets/$MRR medians.
-- This dataset is observational; it does not provide causal impact of interventions (by design—this is a decision-architecture project).
+- This dataset is observational; it does not provide causal impact of interventions (by design-this is a decision-architecture project).
 
 ---
 

@@ -1,4 +1,4 @@
-# Decision Statement (DEPRECATED) — KKBox Retention Budget Allocation
+# Decision Statement (DEPRECATED) - KKBox Retention Budget Allocation
 
 This draft is **deprecated**.
 

@@ -1,4 +1,4 @@
-# Step 6 — Assumption stress test (Rivalytics)
+# Step 6 - Assumption stress test (Rivalytics)
 
 Purpose: test whether the recommendation flips under reasonable variations (robustness, not precision).
 
