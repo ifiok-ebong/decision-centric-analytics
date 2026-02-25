@@ -42,6 +42,8 @@ Prioritize **mid-tenure retention (4–12 months)** over onboarding improvements
 | Share of churn events | 46.6% | 44.0% | Early |
 | Revenue at risk (Total MRR, prev month) | 798,415 | 1,407,419 | Mid |
 | Usage decay before churn (median, m-1 vs m-2) | -37.2% | -11.1% | Early |
+
+Note: usage decay sample sizes are documented in the canonical table at `outputs/rivalytics_decision_table.md`.
 | Support burden (any tickets in last 3 months pre-churn) | 11.0% | 37.4% | Mid |
 
 ### Robustness (Step 6)

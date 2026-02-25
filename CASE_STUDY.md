@@ -150,6 +150,8 @@ Primary comparison: **early vs mid tenure**.
 - revenue-at-risk aggregated by cohort
 
 3) **Usage decay prior to churn**
+
+Note: usage decay sample sizes are documented in the canonical table at `outputs/rivalytics_decision_table.md`.
 - change in usage signals leading up to churn
 - cohort comparison of decay patterns
 

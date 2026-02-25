@@ -1,6 +1,6 @@
 # Project Challenges / Gotchas Log
 
-Purpose: capture the real-world friction we hit while building this KKBox churn decision-centric analysis, so we can anticipate issues, avoid repeating mistakes, and keep the workflow reproducible.
+Purpose: capture the real-world friction we hit while building this decision-centric analysis, so we can anticipate issues, avoid repeating mistakes, and keep the workflow reproducible.
 
 ## Dataset switch note
 This log began during an earlier KKBox dataset attempt. The project later switched to the Rivalytics Ravenstack dataset to support the full decision table (usage + support signals) with a smaller, more reproducible footprint.

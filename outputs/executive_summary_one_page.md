@@ -9,6 +9,8 @@ Source: `outputs/rivalytics_decision_table.md`
 - **Churn concentration (share of churn events):** Early **46.6%** vs Mid **44.0%** (near-tie)
 - **Revenue at risk (Total MRR, month prior to churn):** Early **798,415** vs Mid **1,407,419** → **Mid**
 - **Usage decay prior to churn (median):** Early **-37.2%** vs Mid **-11.1%** (early shows sharper decline; activation-failure signal)
+
+Note: usage decay sample sizes are documented in the canonical table at `outputs/rivalytics_decision_table.md`.
 - **Support burden (any tickets in last 3 months pre-churn):** Early **11.0%** vs Mid **37.4%** (mid higher incidence)
 
 ## Decision rule
