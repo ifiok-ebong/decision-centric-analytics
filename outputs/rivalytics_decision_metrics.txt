@@ -1,5 +1,5 @@
 Rivalytics decision-critical metrics (from account-month panel)
-Cohorts: early=0–3m, mid=4–12m, late=12+m (context)
+Cohorts: early=0–3m, mid=4–12m, late=13+m (context)
 Accounts total: 500; churned accounts: 352
 
 1) Churn concentration

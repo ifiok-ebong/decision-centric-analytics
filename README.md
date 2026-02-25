@@ -44,6 +44,7 @@ Prioritize **mid-tenure retention (4–12 months)** over onboarding improvements
 | Usage decay before churn (median, m-1 vs m-2) | -37.2% | -11.1% | Early |
 
 Note: usage decay sample sizes are documented in the canonical table at `outputs/rivalytics_decision_table.md`.
+
 | Support burden (any tickets in last 3 months pre-churn) | 11.0% | 37.4% | Mid |
 
 ### Robustness (Step 6)
@@ -173,7 +174,7 @@ Which tenure segment offers the **highest marginal impact on churn reduction and
 ### Tenure segmentation
 - **Early tenure:** 0–3 months (onboarding/activation)
 - **Mid tenure:** 4–12 months (established but not fully embedded)
-- **Late tenure:** 12+ months (context only; not a primary intervention target)
+- **Late tenure:** 13+ months (context only; not a primary intervention target)
 
 Primary comparison: **early vs mid tenure**.
 

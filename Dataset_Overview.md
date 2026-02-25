@@ -63,7 +63,7 @@ This panel contains (per account-month):
 ## Cohort definitions (locked)
 - **Early tenure:** 0–3 months
 - **Mid tenure:** 4–12 months
-- **Late tenure:** 12+ months (context only)
+- **Late tenure:** 13+ months (context only)
 
 Primary comparison is **early vs mid**.
 

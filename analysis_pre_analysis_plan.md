@@ -46,7 +46,7 @@ Customers will be segmented into **three tenure cohorts**:
    - Represents established but not fully embedded customers
 
 3. **Late Tenure**
-   - 12+ months
+   - 13+ months
    - Included for context only, not as a primary intervention target
 
 Primary comparison is between **Early Tenure** and **Mid Tenure** cohorts.

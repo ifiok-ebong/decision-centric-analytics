@@ -136,7 +136,7 @@ Which tenure segment offers the **highest marginal impact on churn reduction and
 ### Tenure segmentation
 - **Early tenure:** 0–3 months (onboarding/activation)
 - **Mid tenure:** 4–12 months (established but not fully embedded)
-- **Late tenure:** 12+ months (context only; not a primary intervention target)
+- **Late tenure:** 13+ months (context only; not a primary intervention target)
 
 Primary comparison: **early vs mid tenure**.
 
@@ -151,7 +151,6 @@ Primary comparison: **early vs mid tenure**.
 
 3) **Usage decay prior to churn**
 
-Note: usage decay sample sizes are documented in the canonical table at `outputs/rivalytics_decision_table.md`.
 - change in usage signals leading up to churn
 - cohort comparison of decay patterns
 
@@ -221,6 +220,8 @@ This artifact is designed to force a choice using only decision-critical evidenc
 | Revenue at risk (Total MRR, prev month) | 798,415 | 1,407,419 | Mid |
 | Usage decay before churn (median, m-1 vs m-2) | -37.2% | -11.1% | Early |
 | Support burden (any tickets in last 3 months pre-churn) | 11.0% | 37.4% | Mid |
+
+Note: usage decay sample sizes are documented in the canonical table at `outputs/rivalytics_decision_table.md`.
 
 Full artifact: `outputs/rivalytics_decision_table.md`
 

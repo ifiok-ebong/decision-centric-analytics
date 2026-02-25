@@ -10,8 +10,9 @@ Source: `outputs/rivalytics_decision_table.md`
 - **Revenue at risk (Total MRR, month prior to churn):** Early **798,415** vs Mid **1,407,419** → **Mid**
 - **Usage decay prior to churn (median):** Early **-37.2%** vs Mid **-11.1%** (early shows sharper decline; activation-failure signal)
 
-Note: usage decay sample sizes are documented in the canonical table at `outputs/rivalytics_decision_table.md`.
 - **Support burden (any tickets in last 3 months pre-churn):** Early **11.0%** vs Mid **37.4%** (mid higher incidence)
+
+Note: usage decay sample sizes are documented in the canonical table at `outputs/rivalytics_decision_table.md`.
 
 ## Decision rule
 Per `analysis_pre_analysis_plan.md`, **revenue at risk is primary**. When churn concentration is split, prioritize the cohort where a constrained intervention protects more recurring revenue.

@@ -1,6 +1,6 @@
 # Decision Table - Rivalytics dataset (account-month panel)
 
-Cohorts: Early=0–3 months, Mid=4–12 months, Late=12+ months (context).
+Cohorts: Early=0–3 months, Mid=4–12 months, Late=13+ months (context).
 Event month: churn month if churned else last observed month.
 
 | Criterion (decision-critical) | Early (0–3m) | Mid (4–12m) | Which wins? |
