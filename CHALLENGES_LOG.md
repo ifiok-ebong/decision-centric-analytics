@@ -2,6 +2,10 @@
 
 Purpose: capture the real-world friction we hit while building this KKBox churn decision-centric analysis, so we can anticipate issues, avoid repeating mistakes, and keep the workflow reproducible.
 
+## Dataset switch note
+This log began during an earlier KKBox dataset attempt. The project later switched to the Rivalytics Ravenstack dataset to support the full decision table (usage + support signals) with a smaller, more reproducible footprint.
+See `Dataset_Overview.md` for the current dataset and `archive/` for deprecated KKBox artifacts.
+
 > Conventions
 > - **Symptom**: what we observed
 > - **Cause**: likely root cause

@@ -7,7 +7,7 @@ Event month: churn month if churned else last observed month.
 |---|---:|---:|---|
 | Share of churn events | 46.6% | 44.0% | Early |
 | Revenue at risk (Total MRR, prev month) | 798,415 | 1,407,419 | Mid |
-| Usage decay before churn (median, m-1 vs m-2) | -37.2% | -11.1% | Early |
+| Usage decay before churn (median, m-1 vs m-2) | -37.2% (n=29) | -11.1% (n=133) | Early |
 | Support burden (any tickets in last 3 months pre-churn) | 11.0% | 37.4% | Mid |
 
 ## Notes

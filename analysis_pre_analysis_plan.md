@@ -176,3 +176,7 @@ This plan exists to prevent that.
 ---
 
 End of Pre-Analysis Plan
+
+## Deviations from plan (documented post-analysis)
+- **Support burden:** changed from "support interactions per unit of revenue" to "% of churned accounts with any support tickets in the last 3 months pre-churn" because tickets/$MRR medians were sparse/near-zero in this dataset. The incidence measure is more interpretable for decision support. See `outputs/rivalytics_decision_metrics.txt`.
+
