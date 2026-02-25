@@ -15,9 +15,10 @@
 WITH churn_events AS (
   SELECT
     account_id,
-    DATE_TRUNC('month', churn_date)::date AS churn_month
+    DATE_TRUNC('month', MIN(churn_date))::date AS churn_month
   FROM churn_events
   WHERE churn_date IS NOT NULL
+  GROUP BY account_id
 ),
 
 accounts AS (

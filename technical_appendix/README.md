@@ -16,3 +16,28 @@ Tested with Python 3.12.
 
 
 Safety: the Python script writes to `outputs/technical_appendix_decision_table.md` so it cannot overwrite the canonical decision artifact (`outputs/rivalytics_decision_table.md`).
+
+## Data acquisition
+
+This appendix expects the Rivalytics Ravenstack dataset downloaded locally (raw CSVs are not committed).
+
+Kaggle dataset slug:
+- `rivalytics/saas-subscription-and-churn-analytics-dataset`
+
+Expected files under your `--data-dir`:
+- `ravenstack_accounts.csv`
+- `ravenstack_subscriptions.csv`
+- `ravenstack_churn_events.csv`
+- `ravenstack_feature_usage.csv`
+- `ravenstack_support_tickets.csv`
+
+Example download (Kaggle CLI):
+```bash
+kaggle datasets download -d rivalytics/saas-subscription-and-churn-analytics-dataset -p /path/to/saas-subscription-churn-analytics --unzip
+```
+
+Then run:
+```bash
+python3 technical_appendix/python/reproduce_decision_table.py --data-dir /path/to/saas-subscription-churn-analytics --out-dir outputs
+```
+
