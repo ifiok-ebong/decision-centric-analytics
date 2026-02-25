@@ -47,9 +47,9 @@ def months_between(a: date, b: date) -> int:
 
 def cohort_from_tenure_m(t: int) -> str:
     # Locked cohorts: early 0-3 months, mid 4-12 months, late 12+ months
-    if t <= 2:
+    if t <= 3:
         return "early"
-    if 3 <= t <= 11:
+    if 4 <= t <= 12:
         return "mid"
     return "late"
 

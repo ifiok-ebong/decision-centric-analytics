@@ -62,9 +62,9 @@ panel AS (
       + (DATE_PART('month', m.month) - DATE_PART('month', a.signup_date)))::int AS tenure_months,
     CASE
       WHEN ((DATE_PART('year', m.month) - DATE_PART('year', a.signup_date)) * 12
-            + (DATE_PART('month', m.month) - DATE_PART('month', a.signup_date))) <= 2 THEN 'early'
+            + (DATE_PART('month', m.month) - DATE_PART('month', a.signup_date))) <= 3 THEN 'early'
       WHEN ((DATE_PART('year', m.month) - DATE_PART('year', a.signup_date)) * 12
-            + (DATE_PART('month', m.month) - DATE_PART('month', a.signup_date))) BETWEEN 3 AND 11 THEN 'mid'
+            + (DATE_PART('month', m.month) - DATE_PART('month', a.signup_date))) BETWEEN 4 AND 12 THEN 'mid'
       ELSE 'late'
     END AS cohort,
     COALESCE(m.mrr, 0) AS mrr,
